@@ -6,7 +6,8 @@
  * Author: Mibin Boban, CCS Senior QAT Analyst
  * Development period: Nov-Dec, 2021
  */
-package demo;
+
+package <<package name>>;
 
 import org.ccs.apimaster.apifactory.runner.CCSUnitRunner;
 import org.ccs.apimaster.apifactory.supportcenter.actionee.CCS_Master_Properties;
@@ -14,12 +15,14 @@ import org.ccs.apimaster.apifactory.supportcenter.actionee.CCS_Master_Scenario;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 
-@CCS_Master_Properties("demo.properties")
+@CCS_Master_Properties("project.properties")
 @RunWith(CCSUnitRunner.class)
-public class sample{
+public class <<TC_Class Name>>{
+	//Replace package name. Replace Class name same as Java file name
     @Test
-    @CCS_Master_Scenario("demo/sample1.json")
-    public void testSampleEndpoint() throws Exception{
-
+    @CCS_Master_Scenario("The testcase model path, Eg:testcase_models/tc_manage_users/update_user.json")
+    public void <<Scenario name>>() throws Exception{
+    	//Replace Scenario name
+		
     }
 }

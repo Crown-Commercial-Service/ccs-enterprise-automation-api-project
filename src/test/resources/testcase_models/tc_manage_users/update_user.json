@@ -1,0 +1,17 @@
+{
+  "scenarioName": "Update the existing user",
+  "steps": [
+    {
+      "name": "put-user",
+      "url": "/users",
+      "method": "PUT",
+      "request": {
+        "body" : "${JSON.FILE:requests_jsonbody/existing_user.json}"
+      },
+      "verify": {
+        "status": 200
+      }
+    }
+    
+  ]
+}

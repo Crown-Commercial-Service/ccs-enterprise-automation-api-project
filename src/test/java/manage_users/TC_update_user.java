@@ -6,15 +6,20 @@
  * Author: Mibin Boban, CCS Senior QAT Analyst
  * Development period: Nov-Dec, 2021
  */
-package demo;
+package manage_users;
 
-import org.ccs.apimaster.apifactory.runner.CCSPackageRunner;
+import org.ccs.apimaster.apifactory.runner.CCSUnitRunner;
 import org.ccs.apimaster.apifactory.supportcenter.actionee.CCS_Master_Properties;
-import org.ccs.apimaster.apifactory.supportcenter.actionee.CCS_Master_Suite;
+import org.ccs.apimaster.apifactory.supportcenter.actionee.CCS_Master_Scenario;
+import org.junit.Test;
 import org.junit.runner.RunWith;
 
-@CCS_Master_Properties("demo.properties")
-@RunWith(CCSPackageRunner.class)
-@CCS_Master_Suite("demo")
-public class suite {
+@CCS_Master_Properties("project.properties")
+@RunWith(CCSUnitRunner.class)
+public class TC_update_user{
+    @Test
+    @CCS_Master_Scenario("testcase_models/tc_manage_users/update_user.json")
+    public void testSampleEndpoint() throws Exception{
+
+    }
 }

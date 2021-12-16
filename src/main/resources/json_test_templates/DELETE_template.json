@@ -1,0 +1,15 @@
+{
+  "scenarioName": "This is sample scenario for DELETE requests",
+  "steps": [
+    {
+      "name": "post_template",
+      "url": "url for operation. Base url should be in project.properties file",
+      "method": "DELETE",
+      "request": {
+        },
+      "verify": {
+        "status": "expected status code - number, no need of double quotes"
+        }
+    }
+  ]
+}

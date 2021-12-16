@@ -1,0 +1,17 @@
+{
+  "scenarioName": "Update the existing org",
+  "steps": [
+    {
+      "name": "put-org",
+      "url": "/org-id",
+      "method": "PUT",
+      "request": {
+        "body" : "${JSON.FILE:requests_jsonbody/existing_user.json}"
+      },
+      "verify": {
+        "status": 200
+      }
+    }
+    
+  ]
+}

@@ -1,9 +1,7 @@
 scenarioName,scenarioLoop,stepName,stepLoop,correlationId,requestTimeStamp,responseDelayMilliSec,responseTimeStamp,result,method
-"Create the user and verify - 1",0,post-user,,"1f7fdaad-8d02-4b2b-8eb4-f2585933b2ba",2021-12-15T15:37:49.547,312.0,2021-12-15T15:37:49.859,PASSED,POST
-"Create the user and verify - 1",0,get-user,,"238534ae-286c-42ca-ad9e-0f21de6fb181",2021-12-15T15:37:49.864,319.0,2021-12-15T15:37:50.183,PASSED,GET
-"Create the user and verify - 2",0,post-user,,"9151c322-e59b-49b4-97c7-abd6ead0ea7c",2021-12-15T15:37:48.291,829.0,2021-12-15T15:37:49.120,PASSED,POST
-"Create the user and verify - 2",0,get-user,,"cfa087f8-4e09-4d20-b273-db7e16135830",2021-12-15T15:37:49.129,269.0,2021-12-15T15:37:49.398,PASSED,GET
-"Create the user and verify - 1",0,post-user,,"1f7fdaad-8d02-4b2b-8eb4-f2585933b2ba",2021-12-15T15:37:49.547,312.0,2021-12-15T15:37:49.859,PASSED,POST
-"Create the user and verify - 1",0,get-user,,"238534ae-286c-42ca-ad9e-0f21de6fb181",2021-12-15T15:37:49.864,319.0,2021-12-15T15:37:50.183,PASSED,GET
-"Create the user and verify - 2",0,post-user,,"9151c322-e59b-49b4-97c7-abd6ead0ea7c",2021-12-15T15:37:48.291,829.0,2021-12-15T15:37:49.120,PASSED,POST
-"Create the user and verify - 2",0,get-user,,"cfa087f8-4e09-4d20-b273-db7e16135830",2021-12-15T15:37:49.129,269.0,2021-12-15T15:37:49.398,PASSED,GET
+"Update the existing user",0,put-user,,"faea643b-e76b-4fbb-b65e-9f73f8f88273",2021-12-16T14:10:01.566,377.0,2021-12-16T14:10:01.943,PASSED,PUT
+"Create the user and verify user details",0,post-user,,"1ffcb187-7c85-4a66-a1de-7aee59513171",2021-12-16T14:10:00.295,789.0,2021-12-16T14:10:01.084,PASSED,POST
+"Create the user and verify user details",0,get-user,,"b181cdb3-aba3-4ad3-9f09-9ced206d873e",2021-12-16T14:10:01.092,323.0,2021-12-16T14:10:01.415,PASSED,GET
+"Update the existing user",0,put-user,,"faea643b-e76b-4fbb-b65e-9f73f8f88273",2021-12-16T14:10:01.566,377.0,2021-12-16T14:10:01.943,PASSED,PUT
+"Create the user and verify user details",0,post-user,,"1ffcb187-7c85-4a66-a1de-7aee59513171",2021-12-16T14:10:00.295,789.0,2021-12-16T14:10:01.084,PASSED,POST
+"Create the user and verify user details",0,get-user,,"b181cdb3-aba3-4ad3-9f09-9ced206d873e",2021-12-16T14:10:01.092,323.0,2021-12-16T14:10:01.415,PASSED,GET

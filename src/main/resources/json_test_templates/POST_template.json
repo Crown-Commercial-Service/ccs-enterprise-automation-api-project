@@ -1,0 +1,18 @@
+{
+  "scenarioName": "This is sample scenario for POST requests",
+  "steps": [
+    {
+      "name": "post_template",
+      "url": "url for operation. Base url should be in project.properties file",
+      "method": "POST",
+      "request": {
+        "body": "Expected body should be in external json file. Mention path here. Eg:${JSON.FILE:foldername/filename.json}",
+        "what else I can add" : "You can headers for request here - replace key:what else I can add, with header name. If no headers, delete this key"
+      },
+      "verify": {
+        "status": "expected status code - number, no need of double quotes",
+        "body": "Expected body should be in external json file. Mention path here. Eg:${JSON.FILE:foldername/filename.json}"
+      }
+    }
+  ]
+}
