@@ -2,6 +2,16 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <!--
+    /**
+    * Copyright (C) 2021 Crown Commercial Service. All rights reserved This Test Automation Solution is the confidential
+    * and proprietary information of Crown Commercial Service. You shall not disclose such confidential information and
+    * shall use it only in accordance with the terms of the license agreement you entered into with Crown Commercial Service.
+    * Mentor: Anne Vaudrey-McVey, CCS Enterprise Test Manager
+    * Author: Mibin Boban, CCS Senior QAT Analyst
+    * Development period: Nov-Dec, 2021
+    */
+    -->
     <modelVersion>4.0.0</modelVersion>
     <groupId>org.example</groupId>
     <artifactId>ccs-api-automation</artifactId>
@@ -49,40 +59,6 @@
                         <include>Suite_manage_users.java</include>
                     </includes>
                 </configuration>
-            </plugin>
-            <plugin>
-                <groupId>com.mycila.maven-license-plugin</groupId>
-                <artifactId>maven-license-plugin</artifactId>
-                <version>1.10.b1</version>
-                <configuration>
-                    <header>${license.dir}/license.txt</header>
-                    <properties>
-                        <project>
-                            ${project.name}
-                        </project>
-                        <founder>"CCS Test Team"</founder>
-                        <year>"2021"</year>
-                    </properties>
-                    <includes>
-                        <include>src/main/java/**</include>
-                        <include>src/test/java/**</include>
-                    </includes>
-                </configuration>
-                <executions>
-                    <execution>
-                        <goals>
-                            <goal>format</goal>
-                        </goals>
-                        <phase>process-sources</phase>
-                    </execution>
-                </executions>
-                <dependencies>
-                    <dependency>
-					    <groupId>com.mycila</groupId>
-					    <artifactId>license-maven-plugin</artifactId>
-					    <version>4.2.rc1</version>
-					</dependency>
-                </dependencies>
             </plugin>
         </plugins>
         
