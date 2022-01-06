@@ -1,0 +1,5 @@
+{
+  "random email": "${CCS.MASTER.RANDOM.EMAIL:@email format}, for yopmail, use @yopmail.com",
+  "random string":"${CCS.MASTER.RANDOM.STRING:5}, the digit 5 represents 5 characters required",
+  "random alpha num": "${CCS.MASTER.RANDOM.ALPHANUMERIC:10}"
+}

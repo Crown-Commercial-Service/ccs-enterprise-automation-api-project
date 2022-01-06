@@ -1,15 +1,15 @@
 {
-  "scenarioName": "Update the existing user",
+  "scenarioName": "Update the existing org",
   "steps": [
     {
-      "name": "put-user",
-      "url": "${web.application.endpoint.host2}/users",
+      "name": "put-org",
+      "url": "/org-id",
       "method": "PUT",
       "request": {
         "body" : "${JSON.FILE:requests_jsonbody/existing_user.json}"
       },
       "verify": {
-        "status": 201
+        "status": 200
       }
     }
     

@@ -2,21 +2,24 @@
  * Copyright (C) 2021 Crown Commercial Service. All rights reserved This Test Automation Solution is the confidential
  * and proprietary information of Crown Commercial Service. You shall not disclose such confidential information and
  * shall use it only in accordance with the terms of the license agreement you entered into with Crown Commercial Service.
- * Enterprise Test Manager: Anne Vaudrey-McVey
+ * Mentor: Anne Vaudrey-McVey, CCS Enterprise Test Manager
  * Author: Mibin Boban, CCS Senior QAT Analyst
  * Development period: Nov-Dec, 2021
  */
+package manage_users;
 
-package <<package name>>;
-
-import org.ccs.apimaster.apifactory.runner.CCSPackageRunner;
+import org.ccs.apimaster.apifactory.runner.CCSUnitRunner;
 import org.ccs.apimaster.apifactory.supportcenter.actionee.CCS_Master_Properties;
-import org.ccs.apimaster.apifactory.supportcenter.actionee.CCS_Master_Suite;
+import org.ccs.apimaster.apifactory.supportcenter.actionee.CCS_Master_Scenario;
+import org.junit.Test;
 import org.junit.runner.RunWith;
 
 @CCS_Master_Properties("project.properties")
-@RunWith(CCSPackageRunner.class)
-@CCS_Master_Suite("The folder path, Eg:testcase_models/tc_manage_users")
-public class <<Suite_Class Name>> {
-	//Replace package name. Replace Class name same as Java file name
+@RunWith(CCSUnitRunner.class)
+public class TC_get_user {
+    @Test
+    @CCS_Master_Scenario("testcase_models/tc_tenders_users/get_user.json")
+    public void testSampleEndpoint() throws Exception{
+
+    }
 }

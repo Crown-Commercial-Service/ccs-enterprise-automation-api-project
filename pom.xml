@@ -7,7 +7,7 @@
     * Copyright (C) 2021 Crown Commercial Service. All rights reserved This Test Automation Solution is the confidential
     * and proprietary information of Crown Commercial Service. You shall not disclose such confidential information and
     * shall use it only in accordance with the terms of the license agreement you entered into with Crown Commercial Service.
-    * Mentor: Anne Vaudrey-McVey, CCS Enterprise Test Manager
+    * Enterprise Test Manager: Anne Vaudrey-McVey
     * Author: Mibin Boban, CCS Senior QAT Analyst
     * Development period: Nov-Dec, 2021
     */
@@ -17,10 +17,15 @@
     <artifactId>ccs-api-automation</artifactId>
     <version>1.0-SNAPSHOT-Proj</version>
     <repositories>
-        <repository>
+        <!--repository>
             <id>mvn-repo</id>
             <name>custom repo</name>
             <url>https://github.com/Crown-Commercial-Service/ccs-enterprise-automation-master/</url>
+        </repository-->
+        <repository>
+            <id>nexus-snapshots</id>
+            <name>maven-releases</name>
+            <url>https://nexus.techopsdev.com/repository/maven-releases/</url>
         </repository>
     </repositories>
     <dependencies>
@@ -28,7 +33,7 @@
         <dependency>
             <groupId>org.example</groupId>
             <artifactId>CCS-API-Master</artifactId>
-            <version>1.0-SNAPSHOT-Master-V.0</version>
+            <version>1.1-SNAPSHOT-Master</version>
         </dependency>
         <dependency>
             <groupId>junit</groupId>
