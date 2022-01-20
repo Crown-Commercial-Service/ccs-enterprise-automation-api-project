@@ -1,0 +1,6 @@
+
+target/api-test-reports/Create the user and verify user details016548f4-a0b7-4b73-ab7d-cbfa3bf5b25b.json
+target/api-test-reports/Checks both Jaggaer and Conclave and returns roles for a user0a2eb9a8-7edc-4403-8029-57beb24e416f.json
+target/api-test-reports/Update the existing user594f2b55-1d13-4a9e-892d-d562da9d3f51.json
+target/ccs-junit-granular-report.csv
+target/ccs-junit-interactive-report.html
