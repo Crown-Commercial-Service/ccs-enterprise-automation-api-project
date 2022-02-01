@@ -1,1 +1,9 @@
 # ccs-enterprise-automation-api-project
+CCS Test Automation Solution for automating API tests without writing single line of code. This solution supports test case modelling in json format.
+
+Guiding Principles for Test Automation Solution Usage:
+1. The end users must use CCS project template for test automation. The master code repository should not be referenced in other frameworks.
+2. The end users (testers) should not make any modifications/enhancements at Project level. All such new entries will be ignored by CCS master. All changes / enhancements should be made via CCS master. E.g. : If we need to ‘add a new feature to enable test case modelling in yaml file format’, that should be done in master. Admins will deploy updated master artifact to Nexus and notify all teams about new version with release notes. Teams can update version of master dependency at project level and new changes will get reflected.
+3. If a team needs an additional feature, they can send suggestion to admins : email
+4. The CCS Master will have 3 Administrators, and any changes need to be reviewed/approved by at least 2 Admins
+

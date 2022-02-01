@@ -1,9 +1,0 @@
--------------------------------------------------------------------------------
-Test set: manage_users.Suite_manage_users
--------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.486 s <<< FAILURE! - in manage_users.Suite_manage_users
-manage_users.Suite_manage_users.initializationError  Time elapsed: 0.004 s  <<< ERROR!
-com.google.common.util.concurrent.ExecutionError: java.lang.ExceptionInInitializerError
-Caused by: java.lang.ExceptionInInitializerError
-Caused by: java.lang.reflect.InaccessibleObjectException: Unable to make protected final java.lang.Class java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain) throws java.lang.ClassFormatError accessible: module java.base does not "opens java.lang" to unnamed module @1a27aae3
-

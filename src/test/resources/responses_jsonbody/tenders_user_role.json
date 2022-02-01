@@ -1,9 +1,0 @@
-{
-  "errors": [
-    {
-      "status": "409 CONFLICT",
-      "title": "User [${user_name}] is not merged in Jaggaer (no SSO data)",
-      "detail": ""
-    }
-  ]
-}

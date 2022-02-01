@@ -1,7 +1,0 @@
-scenarioName,scenarioLoop,stepName,stepLoop,correlationId,requestTimeStamp,responseDelayMilliSec,responseTimeStamp,result,method
-"Create the user and verify user details",0,post-user,,"570eb4b9-d377-4b32-bcbb-ffa6963f26db",2022-01-06T11:17:15.172,1375.0,2022-01-06T11:17:16.547,PASSED,POST
-"Create the user and verify user details",0,get-user,,"016548f4-a0b7-4b73-ab7d-cbfa3bf5b25b",2022-01-06T11:17:16.555,310.0,2022-01-06T11:17:16.865,PASSED,GET
-"Update the existing user",0,put-user,,"594f2b55-1d13-4a9e-892d-d562da9d3f51",2022-01-06T11:17:17.013,354.0,2022-01-06T11:17:17.367,FAILED,PUT
-"Create the user and verify user details",0,post-user,,"570eb4b9-d377-4b32-bcbb-ffa6963f26db",2022-01-06T11:17:15.172,1375.0,2022-01-06T11:17:16.547,PASSED,POST
-"Create the user and verify user details",0,get-user,,"016548f4-a0b7-4b73-ab7d-cbfa3bf5b25b",2022-01-06T11:17:16.555,310.0,2022-01-06T11:17:16.865,PASSED,GET
-"Update the existing user",0,put-user,,"594f2b55-1d13-4a9e-892d-d562da9d3f51",2022-01-06T11:17:17.013,354.0,2022-01-06T11:17:17.367,FAILED,PUT

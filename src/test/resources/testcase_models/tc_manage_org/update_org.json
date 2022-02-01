@@ -3,7 +3,7 @@
   "steps": [
     {
       "name": "put-org",
-      "url": "/org-id",
+      "url": "${web.application.endpoint.host2}/org-id",
       "method": "PUT",
       "request": {
         "body" : "${JSON.FILE:requests_jsonbody/existing_user.json}"

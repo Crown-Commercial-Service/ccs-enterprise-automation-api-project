@@ -1,4 +1,0 @@
-{
-  "date of birth": "$MATCHES.STRING:\\d{4}-\\d{2}-\\d{2}",
-  "place": "$MATCHES.STRING:UK-(.*)"
-}
