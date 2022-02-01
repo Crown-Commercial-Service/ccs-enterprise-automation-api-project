@@ -1,0 +1,5 @@
+{
+  "arrayField": [
+    "${$.step.response.body.arrayField[0]}"
+  ]
+}
