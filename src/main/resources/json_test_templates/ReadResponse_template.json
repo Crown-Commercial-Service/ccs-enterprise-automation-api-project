@@ -3,6 +3,7 @@
   "steps": [
     {
       "name": "create_user",
+      "description": "description here",
       "url": "url for operation. Base url should be in project.properties file",
       "method": "POST",
       "request": {
@@ -15,6 +16,7 @@
     },
     {
       "name": "get_user",
+      "description": "description here",
       "url": "url for operation. Base url should be in project.properties file",
       "method": "GET",
       "request": {

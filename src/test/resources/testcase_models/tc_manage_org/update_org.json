@@ -3,6 +3,7 @@
   "steps": [
     {
       "name": "put-org",
+      "description": "description here",
       "url": "${web.application.endpoint.host2}/org-id",
       "method": "PUT",
       "request": {

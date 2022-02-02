@@ -3,6 +3,7 @@
   "steps": [
     {
       "name": "post-user",
+      "description": "description here",
       "url": "${web.application.endpoint.host2}/users",
       "method": "POST",
       "request": {
@@ -14,6 +15,7 @@
     },
     {
       "name": "get-user",
+      "description": "description here",
       "url": "${web.application.endpoint.host2}/users/${$.post-user.response.body.id}",
       "method": "GET",
       "request": {

@@ -3,6 +3,7 @@
   "steps": [
     {
       "name": "put-user",
+      "description": "description here",
       "url": "${web.application.endpoint.host2}/users",
       "method": "PUT",
       "request": {

@@ -3,6 +3,7 @@
   "steps": [
     {
       "name": "get_template",
+      "description": "description here",
       "url": "url for operation. Base url should be in project.properties file",
       "method": "GET",
       "request": {
