@@ -7,3 +7,4 @@ Guiding Principles for Test Automation Solution Usage:
 3. If a team needs an additional feature, they can send suggestion to admins : email
 4. The CCS Master will have 3 Administrators, and any changes need to be reviewed/approved by at least 2 Admins
 
+![image](https://user-images.githubusercontent.com/89130649/152338982-b8972f59-4edd-4b0b-83eb-679274869872.png)
