@@ -1,5 +1,6 @@
 {
-  "scenarioName": "Create the user and verify user details",
+  "scenarioName": "Create new user",
+  "scenarioDesc": "To create new user and verify the user details post creation",
   "steps": [
     {
       "name": "post-user",

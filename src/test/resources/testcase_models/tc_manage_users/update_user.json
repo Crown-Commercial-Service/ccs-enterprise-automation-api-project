@@ -1,5 +1,6 @@
 {
   "scenarioName": "Update the existing user",
+  "scenarioDesc": "To update existing user details",
   "steps": [
     {
       "name": "put-user",

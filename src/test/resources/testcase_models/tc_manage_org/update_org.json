@@ -1,5 +1,6 @@
 {
   "scenarioName": "Update the existing org",
+  "scenarioDesc": "To update existing organisation details",
   "steps": [
     {
       "name": "put-org",
