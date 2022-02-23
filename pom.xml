@@ -15,7 +15,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>org.ccs</groupId>
     <artifactId>ccs-api-automation</artifactId>
-    <version>1.0.3</version>
+    <version>1.0.5</version>
     <repositories>
         <!--repository>
             <id>mvn-repo</id>
@@ -33,7 +33,7 @@
         <dependency>
             <groupId>org.ccs</groupId>
             <artifactId>CCS-API-Master</artifactId>
-            <version>1.0.3</version>
+            <version>1.0.5</version>
         </dependency>
         <dependency>
             <groupId>junit</groupId>
