@@ -1,5 +1,5 @@
-# ccs-enterprise-automation-api-project
-CCS Test Automation Solution for automating API tests without writing single line of code, ie no coding for api automation. This solution supports test case modelling in json format.
+# CCS Enterprise Automation - API Project Template
+CCS Test Automation Solution for automating API tests without writing single line of code, ie, no coding for api automation. This solution supports test case modelling in json format.
 
 Guiding Principles for Test Automation Solution Usage:
 1. The end users must use CCS project template for test automation. The master code repository should not be referenced in other frameworks.
