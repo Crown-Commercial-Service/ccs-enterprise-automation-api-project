@@ -4,6 +4,7 @@ _Codeless solution is the next generation in test automation. CCS test automatio
 CCS Test Automation Solution for automating API tests without writing single line of code, ie, no coding for api automation. We "democratizes" what used to be only for tester with strong programming skills to make it available for everyone.This solution supports test case modelling in json format. We aim to achieve accelerated test automation and zero dependency on programming skills.
 
 Please refer detailed user guide here: https://github.com/Crown-Commercial-Service/ccs-enterprise-automation-api-project/wiki
+
 Guiding Principles for Test Automation Solution Usage:
 1. The end users must use this CCS project template for test automation. 
 2. The master code repository should not be referenced in other frameworks.
