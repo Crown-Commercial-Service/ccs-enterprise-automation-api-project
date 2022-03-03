@@ -1,7 +1,7 @@
 # CCS Enterprise Automation - API Project Template
 _Codeless solution is the next generation in test automation. CCS test automation reaches next wave of automation with this! And we bridge skill gap between resources or teams, anyone can automate tests now_
 
-CCS Test Automation Solution for automating API tests without writing single line of code, ie, no coding for api automation. We "democratizes" what used to be only for tester with strong programming skills to make it available for everyone.This solution supports test case modelling in json format. We aim to achieve accelerated test automation and zero dependency on programming skills.
+This is the CCS Test Automation Solution for automating API tests without writing single line of code, ie, no coding for api automation. We "democratizes" what used to be only for tester with strong programming skills to make it available for everyone.This solution supports test case modelling in json format. We aim to achieve accelerated test automation and zero dependency on programming skills.
 
 **To learn/understand the solution and how to use it, please refer detailed user guide here:** [Documentation](https://github.com/Crown-Commercial-Service/ccs-enterprise-automation-api-project/wiki)
 
