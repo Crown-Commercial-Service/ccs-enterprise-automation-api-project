@@ -29,7 +29,6 @@
         </repository>
     </repositories>
     <dependencies>
-        <!-- https://mvnrepository.com/artifact/org.jsmart/zerocode-tdd -->
         <dependency>
             <groupId>org.ccs</groupId>
             <artifactId>CCS-API-Master</artifactId>
