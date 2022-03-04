@@ -1,5 +1,6 @@
 {
   "scenarioName": "This is sample scenario for PUT requests",
+  "scenarioDesc": "To create new user and verify the user details post creation",
   "steps": [
     {
       "name": "post_template",
@@ -8,7 +9,9 @@
       "method": "PUT",
       "request": {
         "body": "Expected body should be in external json file. Mention path here. Eg:${JSON.FILE:foldername/filename.json}",
-        "what else I can add" : "You can headers for request here - replace key:what else I can add, with header name. If no headers, delete this key"
+        "headers": {
+          "header-key": "header value"
+        }
       },
       "verify": {
         "status": "expected status code - number, no need of double quotes",

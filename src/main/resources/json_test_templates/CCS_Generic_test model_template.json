@@ -1,5 +1,6 @@
 {
   "scenarioName": "This is a sample scenario for GET requests",
+  "scenarioDesc": "To create new user and verify the user details post creation",
   "steps": [
     {
       "step 1": "test step 1 here"

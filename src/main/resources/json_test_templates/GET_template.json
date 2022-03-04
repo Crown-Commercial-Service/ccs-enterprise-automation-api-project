@@ -1,5 +1,6 @@
 {
   "scenarioName": "This is a sample scenario for GET requests",
+  "scenarioDesc": "To create new user and verify the user details post creation",
   "steps": [
     {
       "name": "get_template",
@@ -7,7 +8,9 @@
       "url": "url for operation. Base url should be in project.properties file",
       "method": "GET",
       "request": {
-        "what to add here": "add request headers-replace key:what to add here, with header name. Leave request as blank if no headers"
+        "headers": {
+          "header-key": "header value"
+        }
       },
       "verify": {
         "status": "expected status code - number, no need of double quotes",

@@ -1,5 +1,6 @@
 {
   "scenarioName": "This is sample scenario for DELETE requests",
+  "scenarioDesc": "To create new user and verify the user details post creation",
   "steps": [
     {
       "name": "post_template",
