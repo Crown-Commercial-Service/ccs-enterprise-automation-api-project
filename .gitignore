@@ -4,3 +4,4 @@ target/api-test-reports/Checks both Jaggaer and Conclave and returns roles for a
 target/api-test-reports/Update the existing user594f2b55-1d13-4a9e-892d-d562da9d3f51.json
 target/ccs-junit-granular-report.csv
 target/ccs-junit-interactive-report.html
+.idea/jarRepositories.xml

@@ -15,24 +15,19 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>org.ccs</groupId>
     <artifactId>ccs-api-automation</artifactId>
-    <version>1.0.5</version>
+    <version>1.0.7</version>
     <repositories>
-        <!--repository>
-            <id>mvn-repo</id>
-            <name>custom repo</name>
-            <url>https://github.com/Crown-Commercial-Service/ccs-enterprise-automation-master/</url>
-        </repository-->
         <repository>
-            <id>nexus-snapshots</id>
-            <name>maven-releases</name>
-            <url>https://nexus.techopsdev.com/repository/maven-releases/</url>
+            <id>mvn-repo</id>
+            <name>ccs repo</name>
+            <url>https://github.com/Crown-Commercial-Service/ccs-enterprise-automation/</url>
         </repository>
     </repositories>
     <dependencies>
         <dependency>
             <groupId>org.ccs</groupId>
             <artifactId>CCS-API-Master</artifactId>
-            <version>1.0.6</version>
+            <version>1.0.7</version>
         </dependency>
         <dependency>
             <groupId>junit</groupId>
