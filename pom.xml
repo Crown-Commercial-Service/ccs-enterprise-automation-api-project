@@ -27,7 +27,7 @@
         <dependency>
             <groupId>org.ccs</groupId>
             <artifactId>CCS-API-Master</artifactId>
-            <version>1.0.7</version>
+            <version>1.0.9g</version>
         </dependency>
         <dependency>
             <groupId>junit</groupId>
